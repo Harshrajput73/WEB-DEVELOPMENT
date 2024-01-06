@@ -1,9 +1,16 @@
-#box{
-    background-color: beige;
+p {
+    text-align: left;
+    line-height: normal;
+    text-transform: lowercase;
 }
-.heading {
-    color:red;
+
+h1 {
+    text-align: center;
+    text-decoration: line-through;
 }
-button {
-    background-color:green;
+#one {
+    font-size: 24px;
+}
+#three {
+    font-size: 10px;
 }
