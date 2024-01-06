@@ -1,10 +1,9 @@
-h1{
+#box{
+    background-color: beige;
+}
+.heading {
     color:red;
 }
-
-h3 {
-    color:yellowgreen;
-}
 button {
-    color: navajowhite; 
+    background-color:green;
 }
