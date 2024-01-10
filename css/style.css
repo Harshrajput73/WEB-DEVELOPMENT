@@ -1,18 +1,21 @@
-div {
+ /* div {
     height: 100px;
     width: 100px;
     background-color: pink;
-    border-width: 2px;
-    border-color: black;
-    border-style:solid;
-}
-
-h1 {
-    height:50px;
-    width:115px;
-    background-color: navajowhite;
-    border-width: 5px;
-    border-style: dashed;
-    border-color: red;
-
-}
+   border:2px solid brown;
+   padding-left:25px ;
+    padding-right:25px;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   margin-top: 50px;
+   margin-bottom: 50px; 
+    padding:25px;
+   margin:25px; 
+} */
+ 
+ div {
+      height: 100px;
+      width: 100px;
+      background-color: red;
+      border-radius: 50%;
+ }
