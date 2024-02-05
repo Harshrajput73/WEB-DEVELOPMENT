@@ -92,7 +92,7 @@ body {
     display: block;
 
 }
-signup-form input {
+.signup-form input {
     display: block;
     width: 100%;
     padding: 0.5rem;
@@ -100,7 +100,7 @@ signup-form input {
 .form-group {
     margin-top: 1rem;
 }
-.signup-form text {
+.signup-form textarea {
     width: 100%;
 }
 .signup-btn{
