@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .angry-grid{
+           display: grid; 
+        
+           grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+           grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+           
+           gap: 10px;
+           height: 60vh;   
+        }
+          
+        #item-0{
+          background-color: aqua; 
+          grid-row-start: 1;
+          grid-column-start: 1;
+        
+          grid-row-end: 2;
+          grid-column-end: 6;   
+        }
+        #item-1{
+           background-color:rgb(26, 73, 113); 
+           grid-row-start: 2;
+           grid-column-start: 1;
+        
+           grid-row-end: 5;
+           grid-column-end: 2;   
+        }
+        #item-2{
+           background-color: rgb(94, 31, 152); 
+           grid-row-start: 2;
+           grid-column-start: 5;
+        
+           grid-row-end: 5;
+           grid-column-end: 6;   
+        }
+        #item-3{
+           background-color: rgb(160, 28, 81); 
+           grid-row-start: 2;
+           grid-column-start: 2;
+        
+           grid-row-end: 3;
+           grid-column-end: 5;   
+        }
+        #item-4{
+           background-color:hsl(187, 19%, 44%); 
+           grid-row-start: 3;
+           grid-column-start: 2;
+        
+           grid-row-end: 5;
+           grid-column-end: 5;   
+        }
+        #item-5{
+           background-color:firebrick; 
+           grid-row-start: 5;
+           grid-column-start: 1;
+        
+           grid-row-end: 6;
+           grid-column-end: 6;   
+        }
+        </style>
+        <div class="angry-grid">
+          <div id="item-0">&nbsp;</div>
+          <div id="item-1">&nbsp;</div>
+          <div id="item-2">&nbsp;</div>
+          <div id="item-3">&nbsp;</div>
+          <div id="item-4">&nbsp;</div>
+          <div id="item-5">&nbsp;</div>
+        </div>             
+</body>
+</html>
